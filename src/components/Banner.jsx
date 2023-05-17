@@ -5,24 +5,23 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 //importing image
-
 import images from "../assets/banner/index";
 
 const Banner = () => {
   return (
-    <Box maxW="container.full" className="h-10 md:mx-20 mx-10">
+    <Box maxW="container.full" className="md:mx-20 mx-10">
       <Carousel
         showArrows={false}
         showThumbs={false}
         showIndicators={false}
         autoPlay={true}
         swipeable={true}
+        infiniteLoop={true}
       >
-        {images.map((img) => (
-          <div>
+        {images.map((img, index) => (
+          <div key={index} className="overflow-hidden object-cover">
             <img
-              key={img.id}
-              className="rounded-md drop-shadow-lg object-cover"
+              className="rounded-md h-96 drop-shadow-lg object-cover"
               src={img}
             />
           </div>
