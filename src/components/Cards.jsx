@@ -9,11 +9,11 @@ import img3 from "../assets/cards/ing3.jpg";
 const Cards = () => {
   return (
     <Box maxW="container.full" className="md:mx-20 mx-10">
-      <div className="grid text-dark lg:grid-cols-3 md:grid-cols-2  gap-4">
+      <div className="grid text-dark lg:grid-cols-3 md:grid-cols-2 object-cover gap-4">
         <div className=" rounded-md ">
           <img
             src={img1}
-            className="lg:h-[250px]   h-[250px] w-full rounded-md object-cover"
+            className="lg:h-[250px] h-[250px] w-full rounded-md object-cover"
             alt=""
           />
         </div>

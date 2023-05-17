@@ -10,7 +10,7 @@ const Navbar = () => {
       <h1 className="text-xl font-bold cursor-pointer">Logo</h1>
 
       <div className="flex items-center gap-10">
-        <ul className="md:flex hidden items-center gap-10 text-base">
+        <ul className="lg:flex hidden items-center gap-10 text-base">
           <li className="cursor-pointer">Home</li>
           <li className="cursor-pointer">Contact</li>
           <li className="cursor-pointer">Services</li>
