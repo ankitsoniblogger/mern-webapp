@@ -5,7 +5,7 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 //importing image
-import images from "../assets/banner/index";
+import images from "../../../assets/banner/index";
 
 const Banner = () => {
   return (

@@ -1,10 +1,10 @@
 import { Box } from "@chakra-ui/react";
 import React from "react";
-import vCard from "../assets/cards/vCard.jpg";
-import card from "../assets/cards/card1.jpg";
-import img1 from "../assets/cards/img1.jpg";
-import img2 from "../assets/cards/img2.jpg";
-import img3 from "../assets/cards/ing3.jpg";
+import vCard from "../../../assets/cards/vCard.jpg";
+import card from "../../../assets/cards/card1.jpg";
+import img1 from "../../../assets/cards/img1.jpg";
+import img2 from "../../../assets/cards/img2.jpg";
+import img3 from "../../../assets/cards/ing3.jpg";
 
 const Cards = () => {
   return (
